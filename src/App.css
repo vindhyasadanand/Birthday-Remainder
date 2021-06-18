@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(224, 171, 202);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  margin: 100px 500px;
+}
+h1 {
+  margin: 0px 5px;
+}
+button {
+  padding: 10px;
+  width: 300px;
+  background-color: rgb(224, 171, 202);
+  margin: 10px 10px;
+  border: 2px solid black;
+  border-radius: 2px;
+  font-size: 20px;
+  color: white;
+}
+
+button:hover{
+  background-color: antiquewhite;
+  color:beige;
+}
